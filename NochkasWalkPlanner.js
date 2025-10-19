@@ -37,9 +37,14 @@ for (let i = 0; i < walkSchedule.length; i++) {
 // 6 Creating and Using Objects
 let dog = {
   name: "Nochka \u{1F436}", // U+1F436 dog face
-  breed: "Pit Bull",
+  breed: "Pit Bull \u{1F415}",
   age: 4,
-  favoriteActivities: ["running", "playing ball", "sleeping", "eating"]
+  favoriteActivities: [
+    "running",
+    "playing ball", 
+    "sleeping", 
+    `eating \u{1F9B4}` //bone emoji
+  ]
 };
 
 console.log("Dog info:", dog);
