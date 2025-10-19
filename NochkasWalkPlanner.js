@@ -12,7 +12,8 @@ console.log("Good job, Nochka! Total walk time today:", totalWalkTime, "minutes"
 
 // 2 Stringing Characters Together
 let dogName = "Nochka";
-let reminder = "Don't forget " + dogName + "'s walk at 7:00 PM!";
+let dogFriend = "Jenny";
+let reminder = "Don't forget, " + dogName +"," + " you're walking at 7:00 PM with your friend " + dogFriend + " in the park!";
 console.log(reminder);
 
 // 3 Control Structures and Logic
@@ -37,15 +38,18 @@ for (let i = 0; i < walkSchedule.length; i++) {
 // 6 Creating and Using Objects
 let dog = {
   name: "Nochka \u{1F436}", // U+1F436 dog face
-  breed: "Pit Bull \u{1F415}",
+  breed: "Pit Bull \u{1F415}", // U+1F415 dog emoji
   age: 4,
   favoriteActivities: [
-    "running",
+    "running with Jenny",
     "playing ball", 
-    "sleeping", 
-    `eating \u{1F9B4}` //bone emoji
-  ]
+    "napping", 
+    `eating \u{1F9B4}`, //bone emoji
+  ],
+  friends:["Jenny"]
 };
 
 console.log("Dog info:", dog);
 console.log(dog.name + " loves " + dog.favoriteActivities[0]);
+let emoji = "\u{1F43E}";
+console.log(`Nochka is very happy ${emoji}`);
