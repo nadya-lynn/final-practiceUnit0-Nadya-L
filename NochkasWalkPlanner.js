@@ -1,5 +1,5 @@
 // --------------------------------
-// Nochka' Walk Planner Application
+// Nochka' Walk Planner- Day Planener Application
 // --------------------------------
 // Nochka is a 4 years old pit bull rescue pup, and my life and my love
 
@@ -7,7 +7,7 @@
 
 let morningWalk = 30; // minutes
 let eveningWalk = 60; 
-let emoji = "\u{1F43E}";
+let emoji = "\u{1F43E}";// Paw prints unicode character
 let totalWalkTime = morningWalk + eveningWalk; // using number operation
 console.log("Good job, Nochka! Total walk time today:", totalWalkTime, "minutes");
 
@@ -53,4 +53,15 @@ let dog = {
 
 console.log("Dog info:", dog);
 console.log(`${dog.name} loves ${dog.favoriteActivities[0]} ${dog.name} is a very happy pup! ${emoji}`);
-//console.log(`Nochka is a very happy pup! ${emoji}`);
+
+
+// new section that is not a part of the assignment but potentially a future plan for an application.
+// Meal time, Belly Scratch Time, and Vet Visit.
+// 7. Meal Times Loop
+let mealTimes = ["7:30 AM - Breakfast", "6:30 PM - Dinner"];
+for (let i = 0; i < mealTimes.length; i++) {
+  console.log(`\u{1F372} Time to eat, Nochka! Meal scheduled at: ${mealTimes[i]}`);
+};
+
+
+
