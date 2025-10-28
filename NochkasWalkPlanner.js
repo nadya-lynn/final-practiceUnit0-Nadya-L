@@ -64,9 +64,9 @@ for (let i = 0; i < mealTimes.length; i++) {
 };
 
 // 8 Belly sratch time loop
-let bellyScratchTime = ["8:00AM", "11:00AM", "1:00PM", "4:00PM", "8:00PM", "10:00PM"]; 
-  for(i = 0; i < bellyScratchTime.length; i++); {
-    console.log(`\u{1F60A} Belly scratch time at: ${bellyScratchTime[i]} - Nochka loves it!`);
-  };
+let bellyScratchTimes = ["8:00 AM", "11:00 AM", "1:00 PM", "4:00 PM", "8:00 PM", "10:00 PM"]; 
+  for (let i = 0; i < bellyScratchTimes.length; i++) {
+    console.log(`\u{1F60A} Belly scratch time at: ${bellyScratchTimes[i]} - Nochka loves it!`)
+  }
 
 
