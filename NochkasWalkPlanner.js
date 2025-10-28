@@ -55,13 +55,18 @@ console.log("Dog info:", dog);
 console.log(`${dog.name} loves ${dog.favoriteActivities[0]} ${dog.name} is a very happy pup! ${emoji}`);
 
 
-// new section that is not a part of the assignment but potentially a future plan for an application.
+// New section that is not a part of the assignment but potentially a future plan for an application.
 // Meal time, Belly Scratch Time, and Vet Visit.
-// 7. Meal Times Loop
+// 7 Meal Times Loop
 let mealTimes = ["7:30 AM - Breakfast", "6:30 PM - Dinner"];
 for (let i = 0; i < mealTimes.length; i++) {
   console.log(`\u{1F372} Time to eat, Nochka! Meal scheduled at: ${mealTimes[i]}`);
 };
 
+// 8 Belly sratch time loop
+let bellyScratchTime = ["8:00AM", "11:00AM", "1:00PM", "4:00PM", "8:00PM", "10:00PM"]; 
+  for(i = 0; i < bellyScratchTime.length; i++); {
+    console.log(`\u{1F60A} Belly scratch time at: ${bellyScratchTime[i]} - Nochka loves it!`);
+  };
 
 
